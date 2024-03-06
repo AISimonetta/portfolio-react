@@ -1,0 +1,119 @@
+@use '../../Assets/styles/variables' as *;
+
+.wholepage {
+    padding: 20px 0;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__frame {
+        border: 1px solid black;
+        width: 500px;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__introduction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 400px;
+        height: 500px;
+        padding: 25px;
+        background-color: $gray-light-color;
+        margin: 20px;
+    }
+
+    &__title {
+        font-family: "Dorsa", sans-serif;
+        font-size: 80px;
+        font-weight:900;
+        color: white;
+        letter-spacing: 6px;
+        margin:unset;
+
+    }
+
+    &__subtitle {
+        color: black;
+        font-family: "Alumni Sans Pinstripe", sans-serif;
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: bolder;
+        margin:unset;
+
+
+
+    }
+    &__shortDescription{
+        color: black;
+        font-family: "Alumni Sans Pinstripe", sans-serif;
+        font-size: 25px;
+        margin:unset;
+    }
+
+    .passionate {
+        background-color: #7f3b30;
+        padding: 1px;
+        color: white;
+    }
+
+    .creative {
+        background-color: rgb(220, 220, 139);
+        font-family: "Allison", cursive;
+        padding: 2px;
+        padding-bottom: 4px;
+        margin: 5px;
+        letter-spacing: 2px;
+
+
+    }
+
+    .commitment{
+        background-color: #b3b6a2;
+        padding: 4px;
+        font-weight: bolder;
+        margin: 5px;
+        font-family: "Dorsa", sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .freshIdeas{
+        background-color: #88a1ad;
+        font-family: "Allison", cursive;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        letter-spacing: 2px;
+    }
+
+    &__skills {
+        margin-top: 20px;
+        letter-spacing: 6px;
+        font-size: 20px;
+        border: 1px solid black;
+        font-family: "Dorsa", sans-serif;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        width: 700px;
+        justify-content: space-evenly;
+
+        &--icons {
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+
+        }
+    }
+
+    img {
+        width: 35px;
+    }
+}
