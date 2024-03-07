@@ -17,7 +17,7 @@ const Home = () => {
         <div className='home__frame'>
           <div className='home__introduction'>
               <h1 className='home__title'>ALEJANDRA SIMONETTA.</h1>
-              <h2 className='home__subtitle'>Junior Front End Developer.  Designer.</h2>
+              <h2 className='home__subtitle'>Junior Software Developer.  Designer.</h2>
               <p className='home__shortDescription'>"As a dedicated and <span className='passionate'>passionate</span> junior developer, I bring a <span className='creative'>creative touch </span>to front-end development, crafting engaging and dynamic websites and web applications with <span className='commitment'>commitment</span> and <span className='freshIdeas'>fresh ideas</span>."</p>
           </div>
         </div>

@@ -1,0 +1,77 @@
+@use '../../Assets/styles/variables' as *;
+
+
+.project{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 5px 5px $gray-light-color;
+
+
+    &__title {
+        font-family: "Alumni Sans Pinstripe", sans-serif;
+        font-size: 25px;
+        font-weight:900;
+        color: black;
+        letter-spacing: 6px;
+        margin: 5px;
+    }
+
+    &__tech{
+        color: black;
+        font-family: "Alumni Sans Pinstripe", sans-serif;
+        font-size: 22px;
+        margin:unset;
+        margin: 5px;
+        text-align: start;
+    }
+
+    &__img {
+        height: 230px;
+        width: 300px;
+    }
+
+    &__link{
+        background-color: black;
+        margin-left:10px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.code, .eye {
+    color: white;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.project__card {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.813);
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: $gray-light-color;
+
+    #cardId {
+        display: none;
+    }
+    
+    &--container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    &--links {
+        display: flex;
+        align-items: center;
+    }
+
+}

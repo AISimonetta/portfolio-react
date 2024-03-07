@@ -1,3 +1,5 @@
+@use '../../Assets/styles/variables' as *;
+
 .sideBar {
     position: fixed; /* Use fixed position */
     top: 0;
@@ -17,4 +19,4 @@
     margin: 10px;
     }
 
-}
+}   

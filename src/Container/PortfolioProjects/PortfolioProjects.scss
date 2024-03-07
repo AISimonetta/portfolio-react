@@ -1,0 +1,26 @@
+.portfolioProjects {
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        font-family: "Dorsa", sans-serif;
+        font-size: 80px;
+        font-weight:900;
+        color: black;
+        letter-spacing: 6px;
+    }
+
+    &__container{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    &__cards{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgba(255, 255, 255, 0.813);
+
+    }
+}

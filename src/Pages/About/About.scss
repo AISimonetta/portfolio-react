@@ -1,0 +1,57 @@
+@use '../../Assets/styles/variables' as *;
+
+.about {
+
+    &__container {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 500px;
+        margin: 0 50px;
+        background-color: rgba(255, 255, 255, 0.813);
+        margin: 20px;
+        border: 1px solid black;
+        padding: 30px;
+        box-shadow: 10px 10px 10px $gray-light-color;
+
+        &--title {
+            font-family: "Dorsa", sans-serif;
+            font-size: 80px;
+            font-weight:900;
+            color: black;
+            letter-spacing: 6px;
+        }
+
+        p {
+            color: black;
+            font-family: "Alumni Sans Pinstripe", sans-serif;
+            font-size: 22px;
+            margin:unset;
+            font-weight: bolder;
+        }
+    }
+
+    &__imageContainer {
+        border: 1px solid black;
+        background-color: #9090904f;
+        padding: 20px;
+        box-shadow: 10px 10px 10px $gray-light-color;
+
+    }
+
+    img {
+        border-radius: 50%;
+        width: 250px;
+        border: 0.5px solid black;
+        padding: 15px;
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+    }
+}
+

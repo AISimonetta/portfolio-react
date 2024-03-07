@@ -31,6 +31,8 @@ body::before {
   background-size: 70% auto;
   filter: grayscale(100%);
   z-index: -1;
+  opacity: 0.4; 
+
 }
 
 #root {
