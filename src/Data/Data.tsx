@@ -79,7 +79,7 @@ export interface ProjectData {
             id: 1,
             title: 'TICKET TRACKER',
             image: ticketTrackerImage,
-            techUsed: ['HTML', 'SCSS', 'TypeScript', 'React'],
+            techUsed: [ 'SCSS', 'TypeScript', 'React'],
             githubPages: 'https://aisimonetta.github.io/ticket-tracker/',
             githubRepository: 'https://github.com/AISimonetta/ticket-tracker',
         },
