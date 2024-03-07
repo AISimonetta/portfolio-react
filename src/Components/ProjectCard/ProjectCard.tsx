@@ -11,7 +11,9 @@ const ProjectCard = ({project} : ProjectCardProps) => {
     <div className='project'>
       <div className="project__card">
         <div id="cardId">{project.id}</div>
-        <img className='project__img' src={project.image} alt={project.title} />
+        <div>
+          <img className='project__img' src={project.image} alt={project.title} />
+        </div>
         <div className='project__card--container'>
           <h3 className='project__title'>{project.title}</h3>
           <div className='project__card--links'>

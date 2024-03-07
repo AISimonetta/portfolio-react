@@ -47,7 +47,7 @@ export interface ProjectData {
             id: 5,
             title: 'FULL STACK',
             image: fullStackImage,
-            techUsed: ['Spring Boot','JAVA','MySQL','SCSS','JavaScript','BEM','TypesScript','React',],
+            techUsed: ['Spring Boot','JAVA','MySQL','SCSS','JS','TS','React',],
             githubPages: 'https://github.com/AISimonetta/full-stack',
             githubRepository: 'https://github.com/AISimonetta/full-stack',
         },
