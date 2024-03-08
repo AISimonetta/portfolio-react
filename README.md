@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+► Alejandra Simonetta Portfolio
+--
+Welcome to my portfolio! I'm Alejandra , a junior software developer with a passion for design and continuous learning. This portfolio showcases my journey, projects, and skills as I explore the exciting world of software development.
+This portfolio is crafted with React, TypeScript, and SCSS to provide a dynamic and interactive experience. It serves as a hub for my projects, each reflecting my commitment to innovation, problem-solving, and user-centric design. As you navigate through the pages, you'll discover the various facets of my skills and the projects that represent my learning and growth.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+► About me:
+--
+I am a dedicated software enthusiast, always eager to embrace new challenges and technologies. My journey in the field of software development has been a thrilling ride, where I combine my love for coding with a keen eye for design. I believe in the power of creating functional and visually appealing solutions that leave a lasting impression.
 
-Currently, two official plugins are available:
+► Technologies used:
+--
+• SCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+• Typescript
 
-## Expanding the ESLint configuration
+• React
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+► Portfolio Preview:
+--
+![Screenshot 2024-03-08 at 11 29 51](https://github.com/AISimonetta/portfolio-react/assets/122782260/3529abba-aac7-4611-a9c1-c4c7a8df0cea)
 
-- Configure the top-level `parserOptions` property like this:
+► Setup Instructions:
+--
+To explore this project, kindly follow these instructions:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Clone this repository to your local machine and cd into the cloned repository and run :
+-npm install
+-npm run dev
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Alternatively, visit the deployed live version https://aisimonetta.github.io/portfolio-react/.
+
+► Contact:
+--
+For any inquiries, feedback, or contributions to this project, please don't hesitate to get in touch. Your engagement is highly appreciated!
