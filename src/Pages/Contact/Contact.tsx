@@ -9,7 +9,8 @@ const Contact = () => {
       <div className="contact__container">
         <p className="contact__title">GET IN TOUCH.</p>
         <div className="contact__links">
-          <a className="link"
+          <a
+            className="link"
             href="https://www.linkedin.com/in/alejandrasimonetta/"
             target="_blank"
           >

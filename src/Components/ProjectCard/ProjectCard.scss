@@ -1,24 +1,24 @@
-@use '../../Assets/styles/variables' as *;
+@use "../../Assets/styles/variables" as *;
 
-@media screen and (min-width: 320px){
-    .project{
+@media screen and (min-width: 320px) {
+    .project {
         width: 280;
-        border: 1px solid black;
+        border: 1px solid $primary-color;
         margin: 10px;
 
         &__title {
             font-family: "Alumni Sans Pinstripe", sans-serif;
             font-size: 20px;
-            font-weight:900;
-            color: black;
+            font-weight: 900;
+            color:$primary-color;
             letter-spacing: 6px;
             margin: unset;
         }
 
-        &__tech{
-            background-color: black;
+        &__tech {
+            background-color: $primary-color;
             text-align: center;
-            color: white;
+            color:$secondary-color;
             font-family: "Quicksand", sans-serif;
             font-size: 10px;
             font-weight: lighter;
@@ -29,126 +29,76 @@
 
         &__img {
             height: 200px;
-            width: 280px;
+            width: 290px;
             align-self: center;
             filter: grayscale(40%);
         }
 
-        &__link{
-            background-color: black;
-            margin-left:10px;
+        &__link {
+            background-color: $primary-color;
+            margin-left: 10px;
             display: flex;
             align-items: center;
         }
-    }
 
-    .code, .eye {
-        color: white;
-        padding: 5px;
-        width: 20px;
-        height: 20px;
-    }
-
-    .project__card {
-        width: 290px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.813);
-        padding: 20px;
-        margin: 10px;
-        background-color: $gray-light-color;
-
-        #cardId {
-            display: none;
+        .code,
+        .eye {
+            color: $secondary-color;
+            padding: 5px;
+            width: 20px;
+            height: 20px;
         }
 
-        &--container {
+        .project__card {
+            width: 290px;
+            height: 300px;
             display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 5px;
-        }
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0.813);
+            padding: 20px;
+            margin: 10px;
+            background-color: $gray-light-color;
 
-        &--links {
-            display: flex;
-            align-items: center;
+            #cardId {
+                display: none;
+            }
+
+            &--container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 5px;
+            }
+
+            &--links {
+                display: flex;
+                align-items: center;
+            }
         }
     }
 }
 
-@media screen and (min-width: 768px){
-
-    .project{
-        border: 1px solid black;
+@media screen and (min-width: 768px) {
+    .project {
         padding: 10px;
-        margin: 10px;
 
         &__title {
             font-size: 25px;
-            font-weight:900;
-            color: black;
-            letter-spacing: 6px;
             margin: 5px;
         }
 
-        &__tech{
-            background-color: black;
-            text-align: center;
-            color: white;
+        &__tech {
             font-size: 10px;
-            font-weight: lighter;
-            letter-spacing: 1px;
-            padding: 10px 0;
-            width: 100%;
         }
 
         &__img {
             height: 220px;
-            width: 310px;
-            align-self: center;
-            filter: grayscale(40%);
         }
 
-        &__link{
-            background-color: black;
-            margin-left:10px;
-            display: flex;
-            align-items: center;
-        }
-    }
-
-    .code, .eye {
-        color: white;
-        padding: 5px;
-        width: 20px;
-        height: 20px;
     }
 
     .project__card {
         width: 310px;
         height: 310px;
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.813);
-        padding: 20px;
-        margin: 10px;
-        background-color: $gray-light-color;
-
-        #cardId {
-            display: none;
-        }
-
-        &--container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 5px;
-        }
-
-        &--links {
-            display: flex;
-            align-items: center;
-        }
     }
 }

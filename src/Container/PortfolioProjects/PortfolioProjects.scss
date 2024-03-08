@@ -1,26 +1,28 @@
-.portfolioProjects {
+@use "../../Assets/styles/variables" as *;
+
+    .portfolioProjects {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    &__title{
+    &__title {
         font-family: "Dorsa", sans-serif;
         font-size: 80px;
-        font-weight:900;
-        color: black;
+        font-weight: 900;
+        color: $primary-color;
         letter-spacing: 6px;
     }
 
-    &__container{
+    &__container {
         display: flex;
         align-items: center;
         padding: 10px;
     }
 
-    &__cards{
+    &__cards {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         flex-wrap: wrap;
         background-color: rgba(255, 255, 255, 0.813);
     }
