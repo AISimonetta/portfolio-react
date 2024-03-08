@@ -8,22 +8,22 @@ const SideBar = () => {
     <div className='sideBar'>
       {location.pathname !== "/" && (
       <Link to='/' className='home__links--portfolio'>
-        <button>Home</button>
+        <button>Home.</button>
       </Link>
          )}
       {location.pathname !== "/portfolio" && (
         <Link to='/portfolio' className='home__links--portfolio'>
-          <button>Projects</button>
+          <button>Projects.</button>
         </Link>
       )}
       {location.pathname !== "/contact" && (
         <Link to='/contact' className='home__links--contact'>
-          <button>Contact</button>
+          <button>Contact.</button>
         </Link>
       )}
       {location.pathname !== "/about" && (
         <Link to='/about' className='home__links--about'>
-          <button>About</button>
+          <button>About.</button>
         </Link>
       )}
     </div>

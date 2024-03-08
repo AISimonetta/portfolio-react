@@ -10,17 +10,18 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 100%;
+        width: 100vw;
         padding: 10px;
         background-color: rgba(255, 255, 255, 0.813);
 
         button {
         font-family: "Alumni Sans Pinstripe", sans-serif;
-        letter-spacing: 6px;
+        letter-spacing: 5px;
         border: none;
         background-color: unset;
         font-size: 14px;
-        margin: 5px;
+        font-weight: bolder;
+        color: black;
         align-items: center;
         padding: 10px;
 
@@ -30,6 +31,7 @@
             background-color: black;
             color: white ;
             padding: 10px;
+            font-weight: bolder;
         }
     }
 }
