@@ -1,6 +1,7 @@
 .portfolioProjects {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     &__title{
         font-family: "Dorsa", sans-serif;
@@ -19,8 +20,8 @@
     &__cards{
         display: flex;
         align-items: center;
+        justify-content:center;
         flex-wrap: wrap;
         background-color: rgba(255, 255, 255, 0.813);
-
     }
 }

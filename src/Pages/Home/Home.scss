@@ -1,114 +1,354 @@
 @use '../../Assets/styles/variables' as *;
 
-.wholepage {
-    padding: 20px 0;
-}
-
-.home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    &__frame {
-        border: 1px solid black;
-        width: 450px;
-        height: 550px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+@media screen and (min-width: 320px){
+    .wholepage {
+        padding: 50px 0;
     }
 
-    &__introduction {
+    .home {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        width: 350px;
-        height: 450px;
-        padding: 25px;
-        background-color: $gray-light-color;
-        margin: 20px;
-    }
 
-    &__title {
-        font-family: "Dorsa", sans-serif;
-        font-size: 80px;
-        font-weight:900;
-        color: white;
-        letter-spacing: 6px;
-        margin:unset;
-    }
-
-    &__subtitle {
-        color: black;
-        font-family: "Alumni Sans Pinstripe", sans-serif;
-        font-size: 25px;
-        letter-spacing: 1px;
-        font-weight: bolder;
-        margin:unset;
-    }
-    &__shortDescription{
-        color: black;
-        font-family: "Alumni Sans Pinstripe", sans-serif;
-        font-size: 25px;
-        margin:unset;
-    }
-
-    .passionate {
-        background-color: #7f3b30;
-        padding: 1px;
-        color: white;
-    }
-
-    .creative {
-        background-color: rgb(220, 220, 139);
-        font-family: "Allison", cursive;
-        padding: 2px;
-        padding-bottom: 4px;
-        margin: 5px;
-        letter-spacing: 2px;
-    }
-
-    .commitment{
-        background-color: #b3b6a2;
-        padding: 4px;
-        font-weight: bolder;
-        margin: 5px;
-        font-family: "Dorsa", sans-serif;
-        letter-spacing: 2px;
-    }
-
-    .freshIdeas{
-        background-color: #88a1ad;
-        font-family: "Allison", cursive;
-        color: white;
-        margin: 5px;
-        padding: 5px;
-        letter-spacing: 2px;
-    }
-
-    &__skills {
-        margin-top: 20px;
-        letter-spacing: 6px;
-        font-size: 20px;
-        border: 1px solid black;
-        font-family: "Dorsa", sans-serif;
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        width: 700px;
-        justify-content: space-evenly;
-        box-shadow: 10px 10px 10px $gray-light-color;
-
-
-        &--icons {
+        &__frame {
+            border: 1px solid black;
+            width: 270px;
+            height: 350px;
             display: flex;
-            justify-content: space-between;
-            width: 70%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__introduction {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 230px;
+            height: 310px;
+            background-color: $gray-light-color;
+        }
+
+        &__title {
+            font-family: "Dorsa", sans-serif;
+            font-size: 40px;
+            font-weight:900;
+            color: white;
+            letter-spacing: 6px;
+            margin:unset;
+        }
+
+        &__subtitle {
+            color: black;
+            font-family: "Alumni Sans Pinstripe", sans-serif;
+            font-size: 16px;
+            letter-spacing: 1px;
+            font-weight: bolder;
+            margin:unset;
+        }
+        &__shortDescription{
+            color: black;
+            font-family: "Alumni Sans Pinstripe", sans-serif;
+            font-size: 16px;
+            margin:unset;
+        }
+
+        .passionate {
+            background-color: #7f3b30;
+            padding: 1px;
+            color: white;
+        }
+
+        .creative {
+            background-color: rgb(220, 220, 139);
+            font-family: "Allison", cursive;
+            padding: 2px;
+            padding-bottom: 4px;
+            margin: 5px;
+            letter-spacing: 2px;
+        }
+
+        .commitment{
+            background-color: #b3b6a2;
+            padding: 4px;
+            font-weight: bolder;
+            margin: 5px;
+            font-family: "Dorsa", sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .freshIdeas{
+            background-color: #88a1ad;
+            font-family: "Allison", cursive;
+            color: white;
+            margin: 5px;
+            padding: 5px;
+            letter-spacing: 2px;
+        }
+
+        &__skills {
+            margin-top: 20px;
+            letter-spacing: 6px;
+            font-size: 12px;
+            border: 1px solid black;
+            font-family: "Dorsa", sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+            width: 270px;
+            height: 120px;
+            justify-content: space-evenly;
+            box-shadow: 10px 10px 10px $gray-light-color;
+            padding: 0 15px;
+
+            &--icons {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                padding: 0 10px;
+                align-items: center;
+            }
+        }
+
+        img {
+            width: 22px;
+            padding: 15px 0;
         }
     }
+}
 
-    img {
-        width: 35px;
+@media screen and (min-width: 768px){
+    .wholepage {
+        padding: 30px 0;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__frame {
+            border: 1px solid black;
+            width: 410px;
+            height: 510px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__introduction {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 330px;
+            height: 430px;
+            padding: 15px;
+            background-color: $gray-light-color;
+        }
+
+        &__title {
+            font-family: "Dorsa", sans-serif;
+            font-size: 60px;
+            font-weight:900;
+            color: white;
+            letter-spacing: 6px;
+            margin:unset;
+        }
+
+        &__subtitle {
+            color: black;
+            font-family: "Alumni Sans Pinstripe", sans-serif;
+            font-size: 20px;
+            letter-spacing: 1px;
+            font-weight: bolder;
+            margin:unset;
+        }
+        &__shortDescription{
+            color: black;
+            font-family: "Alumni Sans Pinstripe", sans-serif;
+            font-size: 20px;
+            margin:unset;
+        }
+
+        .passionate {
+            background-color: #7f3b30;
+            padding: 1px;
+            color: white;
+        }
+
+        .creative {
+            background-color: rgb(220, 220, 139);
+            font-family: "Allison", cursive;
+            padding: 2px;
+            padding-bottom: 4px;
+            margin: 5px;
+            letter-spacing: 2px;
+        }
+
+        .commitment{
+            background-color: #b3b6a2;
+            padding: 4px;
+            font-weight: bolder;
+            margin: 5px;
+            font-family: "Dorsa", sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .freshIdeas{
+            background-color: #88a1ad;
+            font-family: "Allison", cursive;
+            color: white;
+            margin: 5px;
+            padding: 5px;
+            letter-spacing: 2px;
+        }
+
+        &__skills {
+            margin-top: 20px;
+            letter-spacing: 6px;
+            font-size: 26px;
+            border: 1px solid black;
+            font-family: "Dorsa", sans-serif;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            width: 600px;
+            justify-content: space-evenly;
+            box-shadow: 10px 10px 10px $gray-light-color;
+
+            &--title{
+                margin: unset;
+                margin-top: 25px;
+                font-size: 25px;
+            }
+
+            &--icons {
+                display: flex;
+                justify-content: space-between;
+                width: 60%;
+            }
+        }
+
+        img {
+            width: 34px;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px){
+
+    .wholepage {
+        padding: 10px 0;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__frame {
+            border: 1px solid black;
+            width: 450px;
+            height: 550px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__introduction {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 350px;
+            height: 450px;
+            padding: 25px;
+            background-color: $gray-light-color;
+            margin: 20px;
+        }
+
+        &__title {
+            font-family: "Dorsa", sans-serif;
+            font-size: 80px;
+            font-weight:900;
+            color: white;
+            letter-spacing: 6px;
+            margin:unset;
+        }
+
+        &__subtitle {
+            color: black;
+            font-family: "Alumni Sans Pinstripe", sans-serif;
+            font-size: 25px;
+            letter-spacing: 1px;
+            font-weight: bolder;
+            margin:unset;
+        }
+        &__shortDescription{
+            color: black;
+            font-family: "Alumni Sans Pinstripe", sans-serif;
+            font-size: 25px;
+            margin:unset;
+        }
+
+        .passionate {
+            background-color: #7f3b30;
+            padding: 1px;
+            color: white;
+        }
+
+        .creative {
+            background-color: rgb(220, 220, 139);
+            font-family: "Allison", cursive;
+            padding: 2px;
+            padding-bottom: 4px;
+            margin: 5px;
+            letter-spacing: 2px;
+        }
+
+        .commitment{
+            background-color: #b3b6a2;
+            padding: 4px;
+            font-weight: bolder;
+            margin: 5px;
+            font-family: "Dorsa", sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .freshIdeas{
+            background-color: #88a1ad;
+            font-family: "Allison", cursive;
+            color: white;
+            margin: 5px;
+            padding: 5px;
+            letter-spacing: 2px;
+        }
+
+        &__skills {
+            margin-top: 20px;
+            letter-spacing: 6px;
+            font-size: 20px;
+            border: 1px solid black;
+            font-family: "Dorsa", sans-serif;
+            display: flex!important;
+            align-items: center;
+            padding: 10px;
+            width: 700px;
+            justify-content: space-evenly;
+            box-shadow: 10px 10px 10px $gray-light-color;
+
+            &--icons {
+                display: flex;
+                justify-content: space-between;
+                width: 70%;
+            }
+        }
+
+        img {
+            width: 35px;
+        }
     }
 }
