@@ -20,6 +20,7 @@
         }
 
         &__introduction {
+            padding: 0 5px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -31,7 +32,7 @@
 
         &__title {
             font-family: "Dorsa", sans-serif;
-            font-size: 40px;
+            font-size: 44px;
             font-weight:900;
             color:$secondary-color;
             letter-spacing: 6px;
@@ -41,9 +42,9 @@
         &__subtitle {
             color: $primary-color;
             font-family: "Alumni Sans Pinstripe", sans-serif;
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: 1px;
-            font-weight: bolder;
+            font-weight:bolder;
             margin:unset;
         }
 
@@ -51,6 +52,8 @@
             color:$primary-color;
             font-family: "Alumni Sans Pinstripe", sans-serif;
             font-size: 16px;
+            font-weight:bolder;
+
             margin:unset;
         }
 
@@ -64,7 +67,7 @@
             background-color: $yellow-color;
             font-family: "Allison", cursive;
             padding: 1px;
-            padding-bottom: 4px;
+            padding-bottom: 2px;
             margin: 5px;
             letter-spacing: 2px;
         }
@@ -90,16 +93,17 @@
         &__skills {
             margin-top: 20px;
             letter-spacing: 6px;
-            font-size: 12px;
+            font-size: 16px;
             border: 1px solid $primary-color;
             font-family: "Dorsa", sans-serif;
+            font-weight: bolder;
             display: flex;
             flex-direction: column;
-            align-items: center;
             padding: 5px;
             width: 270px;
             height: 120px;
             justify-content: space-evenly;
+            align-items: center;
             box-shadow: 10px 10px 10px $gray-light-color;
             padding: 0 15px;
 
@@ -107,14 +111,12 @@
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
-                padding: 0 10px;
-                align-items: center;
             }
         }
 
         img {
             width: 22px;
-            padding: 15px 0;
+            padding-bottom: 20px;
         }
     }
 }
@@ -167,6 +169,9 @@
             font-size: 26px;
             padding: 10px;
             width: 600px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
 
             &--title{
                 margin: unset;
@@ -177,7 +182,7 @@
             &--icons {
                 display: flex;
                 justify-content: space-between;
-                width: 60%;
+                width: 80%;
             }
         }
 
