@@ -9,15 +9,15 @@ const Contact = () => {
       <div className="contact__container">
         <p className="contact__title">GET IN TOUCH.</p>
         <div className="contact__links">
+          <a href="https://github.com/AISimonetta" target="_blank">
+            <Github className="github" />
+          </a>
           <a
             className="link"
             href="https://www.linkedin.com/in/alejandrasimonetta/"
             target="_blank"
           >
             <Linkedin className="linkedin" />
-          </a>
-          <a href="https://github.com/AISimonetta" target="_blank">
-            <Github className="github" />
           </a>
           <a href="mailto:info@simonettaalejandra.com">
             <Mail className="mail" />

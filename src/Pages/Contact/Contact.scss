@@ -42,16 +42,21 @@
             justify-content: center;
             text-decoration: none;
         }
+    }
 
-        .linkedin,
-        .github,
-        .mail {
-        color:$secondary-color;
-        background-color: $primary-color;
-        width: 30px;
-        height: 30px;
-        padding: 10px;
-        }
+    .linkedin,
+    .github,
+    .mail {
+    color:$secondary-color;
+    background-color: $primary-color;
+    width: 40px;
+    height: auto;
+    padding: 10px;
+    }
+
+    .linkedin {
+        margin-bottom: 3px;
+        width: 40px;
     }
 }
 
