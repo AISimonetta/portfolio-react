@@ -1,0 +1,25 @@
+@use '../../Assets/styles/variables' as *;
+
+.container{
+    margin-bottom: 10px; 
+
+}
+.footer {
+    text-align: start;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    bottom: 0;
+    left: 0;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.291);
+    margin-top: 100px;
+}
+
+@media screen and (min-width: 768px){
+    .footer {
+        text-align: start;
+    }
+}

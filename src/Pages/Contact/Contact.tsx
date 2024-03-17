@@ -1,6 +1,7 @@
 import SideBar from "../../Components/SideBar/SideBar";
 import { Linkedin, Github, Mail } from "lucide-react";
 import "./Contact.scss";
+import Footer from "../../Components/Footer/Footer";
 
 const Contact = () => {
   return (
@@ -24,6 +25,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

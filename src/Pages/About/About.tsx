@@ -1,6 +1,7 @@
 import "./About.scss";
 import profilePhoto from "../../Assets/images/alePhoto.jpg";
 import SideBar from "../../Components/SideBar/SideBar";
+import Footer from "../../Components/Footer/Footer";
 
 const About = () => {
   return (
@@ -35,6 +36,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

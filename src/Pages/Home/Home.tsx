@@ -8,6 +8,7 @@ import js from "../../Assets/images/jsLogo.png";
 import react from "../../Assets/images/reactLogo.png";
 import java from "../../Assets/images/javaLogo.png";
 import springboot from "../../Assets/images/SpringBoot.png";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -44,6 +45,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
