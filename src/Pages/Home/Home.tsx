@@ -32,7 +32,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home__skills">
-          <h2 className="home__skills--title">SkILLS :</h2>
+          <h2 className="home__skills--title">SkILLS:</h2>
           <div className="home__skills--icons">
             <img src={html5} alt="html5 logo" />
             <img src={css} alt="html5 logo" />
