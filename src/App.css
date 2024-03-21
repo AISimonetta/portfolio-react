@@ -28,7 +28,7 @@ body::before {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 70% auto;
+    background-size: 80% auto;
     filter: grayscale(100%);
     z-index: -1;
     opacity: 0.4; 
